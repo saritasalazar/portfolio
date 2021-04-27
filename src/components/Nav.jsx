@@ -17,7 +17,7 @@ const Nav = () => {
       </div>
       <ul className="menu-items">
         <div className="text-list">
-          <Link to="/about"> About Me</Link>
+          <Link style={{color:"white"}} to="/about"> About Me</Link>
         </div>
         <div className="icons">
           <a
