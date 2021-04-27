@@ -64,13 +64,13 @@ const Home = () => {
                 src="https://octodex.github.com/images/femalecodertocat.png"
                 alt="GitHub Logo"
               />
-              <p className="paragraph" style={{marginBottom: "5%", fontSize: "50px"}}>
+              <p className="paragraph" style={{marginBottom: "5%", fontSize: "50px", color: "white"}}>
                 Hi! I'm Sara.
               </p>
-              <p style={{marginTop: 0}}>I solve problems and make cool stuff.</p>
-              <Link to="/contact">
-                <button>TALK TO ME</button>
-              </Link>
+              <p style={{marginTop: 0}}> I solve problems and make cool stuff.</p>
+              
+                <a className="button" style={{color: "white"}} href="mailto:saraesalazar@icloud.com">CONTACT</a>
+              
             </div>
           </div>
           <div className="col">
@@ -83,7 +83,7 @@ const Home = () => {
               }}
             >
               <div className="polaroid__container--right">
-                <Link to="/projects">
+                <a href="/files/Sara_Salazar.pdf" download>
                   <div className="polaroid polaroid--blue">
                     {" "}
                     <img
@@ -91,9 +91,10 @@ const Home = () => {
                       src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
                       alt="Work Desk Setup"
                     ></img>
-                    <p className="paragraph">Coming Soon!</p>
+                    <p className="center-text" className="paragraph">Resume {""}	
+                    <span className="down-arrow">↓</span></p>
                   </div>
-                </Link>
+                </a>
               </div>
             </motion.div>
             <motion.div

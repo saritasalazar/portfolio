@@ -29,15 +29,13 @@ $quicksand: "Quicksand", sans-serif;
 
 .container {
   display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  margin-bottom: 5%;
+  width: 100vw;
+  background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
 }
 
 .content {
   display: flex;
-  height: 100%;
+  height: 90vh;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -46,10 +44,11 @@ $quicksand: "Quicksand", sans-serif;
 .col {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100%;
   @media only screen and (max-width: 700px) {
     margin: 2%;
+    height: 75%;
   }
 }
 
@@ -141,6 +140,9 @@ $quicksand: "Quicksand", sans-serif;
   @media only screen and (max-width: 900px) {
     font-size: 2rem;
   }
+}
+.down-arrow {
+  font-size: 2rem;
 }
 
 .polaroid--pink:hover {

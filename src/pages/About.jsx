@@ -2,8 +2,8 @@ import React from "react";
 import "./About.scss";
     const About = () => {
       return (
- <div className="container" style={{flexDirection: "row", alignItems:"center", justifyContent: "center"}}>
-    <div><img
+ <div className="container">
+    <div className="about__content"><img
             className="me"
             src="https://octodex.github.com/images/femalecodertocat.png"
             alt="cup of coffee"
