@@ -1,0 +1,93 @@
+@use '../partials/partials' as *;
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  min-width: 800px;
+  margin-bottom: 5%;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+
+.polaroid__container {
+  display: flex;
+
+  &--left {
+    transform: rotate(-6deg);
+  }
+  &--right {
+    transform: rotate(6deg);
+  }
+  &--center {
+    min-width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.polaroid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 250px;
+  width: 200px;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.polaroid--main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 600px;
+  width: 95%;
+  max-width: 400px;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.polaroid__image {
+  width: 95%;
+  height: 70%;
+}
+
+.polaroid__image--main {
+  width: auto;
+  height: 60%;
+}
+
+.polaroid--pink:hover {
+  color: $hot-pink;
+}
+
+.polaroid--purple:hover {
+  color: $purple;
+}
+
+.polaroid--blue:hover p {
+  color: $blue;
+}
+.polaroid--aqua:hover p {
+  color: $aqua;
+}

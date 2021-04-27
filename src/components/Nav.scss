@@ -1,0 +1,63 @@
+@use '../partials/partials' as *;
+
+.navbar {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  background: rgba(9, 18, 39, 0.1);
+}
+
+.logo {
+  width: 15vw;
+  margin-left: 2%;
+  z-index: 1;
+}
+
+.logo h1 {
+  font-size: 1.5em;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  list-style-type: none;
+  z-index: 1;
+}
+
+.menu-items a:hover {
+  color: #df42f7;
+}
+
+.github-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.linkedin-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  margin-right: 2%;
+}
+
+.icon img {
+  padding: 10px;
+}
+
+.text-list {
+  display: flex;
+}
+
+.text-list a {
+  padding: 30px;
+  color: white;
+}
