@@ -1,0 +1,29 @@
+//variables
+$background: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+$hot-pink: #f907fc;
+$aqua: #05d6d9;
+$blue: #4f99e4;
+$purple: #856aeb;
+$white: #ffffff;
+
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+$reenie: "Reenie Beanie";
+$quicksand: "Quicksand";
+
+//mixins
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin p-paragraph {
+  color: black;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 40px;
+  padding-top: 0.5rem;
+  margin: 0;
+}
