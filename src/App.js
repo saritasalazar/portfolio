@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <Router>
-      {width > 700 ? <Nav /> : null}
+      <Nav />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
