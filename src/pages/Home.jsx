@@ -64,10 +64,10 @@ const Home = () => {
                 src="https://octodex.github.com/images/femalecodertocat.png"
                 alt="GitHub Logo"
               />
-              <p className="paragraph" style={{ fontSize: "50px", textAlign: "center" }}>
+              <p className="paragraph" style={{marginBottom: "5%", fontSize: "50px"}}>
                 Hi! I'm Sara.
               </p>
-              <p>I solve problems and make cool stuff.</p>
+              <p style={{marginTop: 0}}>I solve problems and make cool stuff.</p>
               <Link to="/contact">
                 <button>TALK TO ME</button>
               </Link>
@@ -91,7 +91,7 @@ const Home = () => {
                       src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
                       alt="Work Desk Setup"
                     ></img>
-                    <p className="paragraph">Projects</p>
+                    <p className="paragraph">Coming Soon!</p>
                   </div>
                 </Link>
               </div>

@@ -18,7 +18,6 @@ const Nav = () => {
       <ul className="menu-items">
         <div className="text-list">
           <Link to="/about"> About Me</Link>
-          <Link to="/contact">Contact</Link>
         </div>
         <div className="icons">
           <a

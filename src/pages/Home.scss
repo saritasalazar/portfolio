@@ -77,6 +77,11 @@
   height: 60%;
 }
 
+.paragraph {
+  margin-top: 10%;
+  @include p-paragraph;
+}
+
 .polaroid--pink:hover {
   color: $hot-pink;
 }
