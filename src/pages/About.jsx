@@ -8,7 +8,7 @@ import "./About.scss";
             src="https://octodex.github.com/images/femalecodertocat.png"
             alt="cup of coffee"
             />
-        <p className="paragraph" id="hello"> Hi! I'm Sara. </p>
+        <p className="paragraph" id="hello"> Hi, I'm Sara. Nice to meet you! </p>
         </div>
               <div className="about">
                 <h2> 📍: Miami, FL 🌴</h2>
