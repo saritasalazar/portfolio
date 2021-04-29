@@ -91,7 +91,7 @@ const Home = () => {
                       src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
                       alt="Work Desk Setup"
                     ></img>
-                    <p className="center-text" className="paragraph">Resume {""}	
+                    <p className="paragraph" >Resume {""}	
                     <span className="down-arrow">↓</span></p>
                   </div>
                 </a>

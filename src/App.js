@@ -3,12 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
-import useWindowDimensions from "./utils/useWindowDimensions";
 import './App.scss';
 
 
 const App = () => {
-  const { width } = useWindowDimensions();
+
 
   return (
     <Router>
