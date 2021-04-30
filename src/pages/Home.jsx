@@ -83,7 +83,7 @@ const Home = () => {
               }}
             >
               <div className="polaroid__container--right">
-                <a href="/files/Sara_Salazar.pdf" download>
+                <a href="/files/Sara_Salazar.pdf" download="Sara_Salazar.pdf">
                   <div className="polaroid polaroid--blue">
                     {" "}
                     <img
