@@ -116,6 +116,7 @@ $quicksand: "Quicksand", sans-serif;
   @media screen and (orientation: landscape) {
     height: 150px;
     width: 125px;
+    margin: 5px;
   }
 }
 
@@ -137,6 +138,9 @@ $quicksand: "Quicksand", sans-serif;
     /*FIX ME*/
   }
   @media only screen and (max-width: 700px) {
+    display: none;
+  }
+  @media screen and (orientation: landscape) {
     display: none;
   }
 }
@@ -163,6 +167,9 @@ $quicksand: "Quicksand", sans-serif;
   @media only screen and (max-width: 700px) {
     font-size: 1.5rem;
   }
+  @media screen and (orientation: landscape) {
+    font-size: 1.25rem;
+  }
 }
 .down-arrow {
   font-size: 2rem;
@@ -170,7 +177,7 @@ $quicksand: "Quicksand", sans-serif;
     font-size: 1.5rem;
   }
   @media screen and (orientation: landscape) {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
