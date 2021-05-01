@@ -34,7 +34,6 @@ $quicksand: "Quicksand", sans-serif;
   min-height: 93vh;
   @media only screen and (max-width: 900px) {
     flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -44,6 +43,9 @@ $quicksand: "Quicksand", sans-serif;
   justify-content: center;
   flex-direction: column;
   margin: 5%;
+  @media screen and (orientation: landscape) {
+    width: 70vw;
+  }
 }
 
 .about {
@@ -59,8 +61,8 @@ $quicksand: "Quicksand", sans-serif;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   @media only screen and (max-width: 900px) {
     width: 80%;
+    padding: 5%;
     height: auto;
-    // padding: 10%;
   }
 }
 
@@ -78,6 +80,6 @@ $quicksand: "Quicksand", sans-serif;
   width: 400px;
   @media only screen and (max-width: 900px) {
     height: auto;
-    width: 50%;
+    width: 30%;
   }
 }

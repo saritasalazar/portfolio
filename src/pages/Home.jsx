@@ -64,10 +64,10 @@ const Home = () => {
                 src="https://octodex.github.com/images/femalecodertocat.png"
                 alt="GitHub Logo"
               />
-              <p className="paragraph" style={{marginBottom: "5%", fontSize: "3rem", color: "white"}}>
+              <p className="intro">
                 Hi! I'm Sara.
               </p>
-              <p style={{marginTop: 0}}> I solve problems and make cool stuff.</p>
+              <p className="description" style={{marginTop: 0}}> I solve problems and make cool stuff.</p>
               
                 <a className="button" style={{color: "white"}} href="mailto:saraesalazar@icloud.com">CONTACT</a>
               
