@@ -34,8 +34,10 @@ $quicksand: "Quicksand", sans-serif;
   height: 7vh;
   align-items: center;
   background: transparent;
-  @media screen and (orientation: landscape) {
-    height: 12vh;
+  @media only screen and (max-width: 760px) {
+    @media screen and (orientation: landscape) {
+      height: 12vh;
+    }
   }
 }
 
